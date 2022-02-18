@@ -5,13 +5,25 @@ Entregable del Bootcamp en Data Science en The Bridge | Digital Talent Accelerat
 ![genero_musical_portada](portada_ML.png)
 
 ### Objetivo
-Desarrollo de un estudio para la predicción del género musical de las canciones.
+Obtener un clasificador del género musical atendiendo a criterios específicamente musicales de una canción como pueden ser la escala musical, el tempo, su ritmo, instrumentación, armonía...
 
-Para ello, se parte de una BBDD con 50000 registros de canciones, con 17 features y 1 target que contiene 10 géneros musicales.
+Para ello, se parte de una BBDD con 50000 registros de canciones, con 17 features, variables independientes y 1 target, variable a predecir el género musical que contiene 10 géneros musicales.
 
-Se inicia el trabajo con un Exploratory Data Analysis, para pasar después al modelado de Machine Learning con Aprendizaje Supervisado, donde se utilizarán 8 algoritmos diferentes.
+Se inicia el trabajo con un Exploratory Data Analysis muy detallado para entender las variables que describen las canciones, se hace Data Wrangling, & Feature Engineering y se preparan lso datos para después desarrollar modelos de Machine Learning con Aprendizaje Supervisado, habiendo utilizado 8 algoritmos diferentes.
 
-Asímismo, se utilizará Deep Learning, una red neuronal basada en el algoritmo MultiLabel Perceptron Classifier.
+Asimismo, también se ha aplicado Deep Learning, una red neuronal basada en el algoritmo MultiLabel Perceptron Classifier con 3 funciones en base a diferentes funciones de activación, optimizadores y capas de neuronas.
+
+
+### Modelos de Machine Learning & Deep Learning desarrollados:
+1. Logistic Regression
+2. Decission Tree
+3. SVM - Support Vector Machine
+4. Ensemble: Random Forest, Logistic Regression & SVM
+5. Ensemble: Random Forest
+6. Adaptive Boosting
+7. Gradient Boosting
+8. Extreme Gradient Boosting
+9. Red Neuronal: MultiLayer Perceptron Classifier
 
 
 ### Recursos utilizados
@@ -28,7 +40,7 @@ Asímismo, se utilizará Deep Learning, una red neuronal basada en el algoritmo 
 
 3. Jupiter Notebooks con Visual Studio Code.
 
-4. Power Point programa de presentación para explicar el detalle del estudio desarrollado
+4. Power Point para explicar el detalle los modelos de Machine & Deep Learning desarrollados
 
 
 ### Autora del Proyecto Machine & Deep Learning
